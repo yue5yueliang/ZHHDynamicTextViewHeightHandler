@@ -1,0 +1,16 @@
+PODS:
+  - ZHHDynamicTextViewHeightHandler (0.0.1)
+
+DEPENDENCIES:
+  - ZHHDynamicTextViewHeightHandler (from `../`)
+
+EXTERNAL SOURCES:
+  ZHHDynamicTextViewHeightHandler:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZHHDynamicTextViewHeightHandler: 820a00f7be4577bafdd79a91482cf4bc9c473714
+
+PODFILE CHECKSUM: 81564c5674c771f904a10d0401667d58dfd0e603
+
+COCOAPODS: 1.16.2

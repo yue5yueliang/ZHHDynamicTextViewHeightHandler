@@ -1,0 +1,6 @@
+framework module ZHHDynamicTextViewHeightHandler {
+  umbrella header "ZHHDynamicTextViewHeightHandler-umbrella.h"
+
+  export *
+  module * { export * }
+}

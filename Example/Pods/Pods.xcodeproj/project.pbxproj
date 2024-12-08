@@ -1,0 +1,822 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1185EF10F838B11817ED66F7DDB32664 /* Pods-ZHHDynamicTextViewHeightHandler_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 759DDADA45EDAC98772BDA426986FED7 /* Pods-ZHHDynamicTextViewHeightHandler_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2835EE7E0A41DA87F73B2E23ED68EB2B /* ZHHDynamicTextViewHeightHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 61FB3648B7C9707576AA5208CCB73808 /* ZHHDynamicTextViewHeightHandler.m */; };
+		45A1B816B9AA8CDEA5E530FFC73B9628 /* Pods-ZHHDynamicTextViewHeightHandler_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16563C5067D6EAB743F87316CBBA70B1 /* Pods-ZHHDynamicTextViewHeightHandler_Tests-dummy.m */; };
+		6743DCD230F0174192CA4396E23F7AAA /* ZHHDynamicTextViewHeightHandler-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DFA8745B72ECC7DBEA321670A1DB51 /* ZHHDynamicTextViewHeightHandler-dummy.m */; };
+		7606F826C92939FAD29504AB41E70803 /* Pods-ZHHDynamicTextViewHeightHandler_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6A448DD175F2624D5360ABA5F30CF /* Pods-ZHHDynamicTextViewHeightHandler_Example-dummy.m */; };
+		8B8780FEEA8EA45A814011BB75EBAF7C /* ZHHDynamicTextViewHeightHandler-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67F6F19E9849CAFA95636AD6D2EADC37 /* ZHHDynamicTextViewHeightHandler-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABFCE2F68A34AB02328DA187665F21DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		BAADA2B794DDC9F24189D5237BF97F7A /* Pods-ZHHDynamicTextViewHeightHandler_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AAA85F6FEED3830F6380CBDFB71D3D1 /* Pods-ZHHDynamicTextViewHeightHandler_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4C895B8F09F96C73BC64E0EF8390828 /* ZHHDynamicTextViewHeightHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C7730680F23AB6EE9C4A4EE27B0E9A1 /* ZHHDynamicTextViewHeightHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D44F273873F0B6B3BDEA97710D7B8A78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		EE2CCD489661A325836E0E15941E886E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6593BB1536801FDF13EC9AD84A7CCFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48FE953B37DC0578C2D0C7BD0F572590;
+			remoteInfo = ZHHDynamicTextViewHeightHandler;
+		};
+		FA754FB695E11FC54138AD11803F1092 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E25A18B0DA1B016290B0B4C58ABE24C7;
+			remoteInfo = "Pods-ZHHDynamicTextViewHeightHandler_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00320F75942A16E2A322F92765E7183B /* Pods-ZHHDynamicTextViewHeightHandler_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZHHDynamicTextViewHeightHandler_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0C7730680F23AB6EE9C4A4EE27B0E9A1 /* ZHHDynamicTextViewHeightHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHHDynamicTextViewHeightHandler.h; path = ZHHDynamicTextViewHeightHandler/Classes/ZHHDynamicTextViewHeightHandler.h; sourceTree = "<group>"; };
+		16563C5067D6EAB743F87316CBBA70B1 /* Pods-ZHHDynamicTextViewHeightHandler_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZHHDynamicTextViewHeightHandler_Tests-dummy.m"; sourceTree = "<group>"; };
+		2BB09A3E7AEF249C8CB91A11D2A8DA48 /* ZHHDynamicTextViewHeightHandler-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZHHDynamicTextViewHeightHandler-prefix.pch"; sourceTree = "<group>"; };
+		2CF8D2BB307CB71E7EC4CC98B48A765F /* Pods-ZHHDynamicTextViewHeightHandler_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZHHDynamicTextViewHeightHandler_Tests.modulemap"; sourceTree = "<group>"; };
+		320932DEB171119C38A813BFFC6D4C71 /* Pods-ZHHDynamicTextViewHeightHandler_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZHHDynamicTextViewHeightHandler_Example.modulemap"; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3F92DF82097E22FB24967896AF01AD1D /* Pods-ZHHDynamicTextViewHeightHandler_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZHHDynamicTextViewHeightHandler_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		41ABF0A2555B955EB6D92B67DF280B52 /* ZHHDynamicTextViewHeightHandler */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZHHDynamicTextViewHeightHandler; path = ZHHDynamicTextViewHeightHandler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61FB3648B7C9707576AA5208CCB73808 /* ZHHDynamicTextViewHeightHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZHHDynamicTextViewHeightHandler.m; path = ZHHDynamicTextViewHeightHandler/Classes/ZHHDynamicTextViewHeightHandler.m; sourceTree = "<group>"; };
+		67F6F19E9849CAFA95636AD6D2EADC37 /* ZHHDynamicTextViewHeightHandler-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZHHDynamicTextViewHeightHandler-umbrella.h"; sourceTree = "<group>"; };
+		69371851860306519EDA155DD3816A48 /* ZHHDynamicTextViewHeightHandler.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZHHDynamicTextViewHeightHandler.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6FB6A448DD175F2624D5360ABA5F30CF /* Pods-ZHHDynamicTextViewHeightHandler_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZHHDynamicTextViewHeightHandler_Example-dummy.m"; sourceTree = "<group>"; };
+		759DDADA45EDAC98772BDA426986FED7 /* Pods-ZHHDynamicTextViewHeightHandler_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZHHDynamicTextViewHeightHandler_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7BCB5237A1AE2D4ECB0FC177FB4F7007 /* Pods-ZHHDynamicTextViewHeightHandler_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZHHDynamicTextViewHeightHandler_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7BF298DF14650AEDF8CEBF263ABECB7E /* Pods-ZHHDynamicTextViewHeightHandler_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZHHDynamicTextViewHeightHandler_Example-Info.plist"; sourceTree = "<group>"; };
+		837B2456E204BADF7757866A4B6F6AC2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		83AEDC1DD84CD40B69EB01550720FC8D /* ZHHDynamicTextViewHeightHandler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZHHDynamicTextViewHeightHandler.debug.xcconfig; sourceTree = "<group>"; };
+		84A386A18CD2397C66A5F6C9058362C9 /* Pods-ZHHDynamicTextViewHeightHandler_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZHHDynamicTextViewHeightHandler_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		88CD4351CC2077ECB2CDBF7C58DFAB24 /* Pods-ZHHDynamicTextViewHeightHandler_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZHHDynamicTextViewHeightHandler_Tests"; path = Pods_ZHHDynamicTextViewHeightHandler_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EAD6C937567A34F665B29E976580AD0 /* Pods-ZHHDynamicTextViewHeightHandler_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZHHDynamicTextViewHeightHandler_Tests-Info.plist"; sourceTree = "<group>"; };
+		99A390CF53729603036FD34D7FD610AA /* Pods-ZHHDynamicTextViewHeightHandler_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZHHDynamicTextViewHeightHandler_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9AAA85F6FEED3830F6380CBDFB71D3D1 /* Pods-ZHHDynamicTextViewHeightHandler_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZHHDynamicTextViewHeightHandler_Example-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DB5B91892C921C8CEEFFE27FAD6A04E /* ZHHDynamicTextViewHeightHandler.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZHHDynamicTextViewHeightHandler.modulemap; sourceTree = "<group>"; };
+		A437AA799999F6252379A53A0BBE0F7F /* Pods-ZHHDynamicTextViewHeightHandler_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZHHDynamicTextViewHeightHandler_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A8DFA8745B72ECC7DBEA321670A1DB51 /* ZHHDynamicTextViewHeightHandler-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZHHDynamicTextViewHeightHandler-dummy.m"; sourceTree = "<group>"; };
+		AA04A3CCC96257C73167203ECF1896DA /* Pods-ZHHDynamicTextViewHeightHandler_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZHHDynamicTextViewHeightHandler_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BE5DC09C6D69817C80D13D4C09ADE9E6 /* ZHHDynamicTextViewHeightHandler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZHHDynamicTextViewHeightHandler.release.xcconfig; sourceTree = "<group>"; };
+		C8A11F54ADE82428C1337D64AB81E7C4 /* ZHHDynamicTextViewHeightHandler-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZHHDynamicTextViewHeightHandler-Info.plist"; sourceTree = "<group>"; };
+		DE3BE47C2BB7B9A5943421CD1CCA73CB /* Pods-ZHHDynamicTextViewHeightHandler_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZHHDynamicTextViewHeightHandler_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EDA02ED1C9C0B4BAACE1817FCC548756 /* Pods-ZHHDynamicTextViewHeightHandler_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZHHDynamicTextViewHeightHandler_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F4BB892E835A094A9BA12127FB4BFBEF /* Pods-ZHHDynamicTextViewHeightHandler_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZHHDynamicTextViewHeightHandler_Example"; path = Pods_ZHHDynamicTextViewHeightHandler_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE74DC1A88835BD290849DFCCA27EFEB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CEB5878C11A4F6C436A10D3F4FD5FF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D44F273873F0B6B3BDEA97710D7B8A78 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE3AE4A481040A04E3A01946E72DF8C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2CCD489661A325836E0E15941E886E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEDD75E5925DD8A00AA5DCCA0092EA1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFCE2F68A34AB02328DA187665F21DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E284AFE298D4C25C6DC78BF2972B0B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4BB892E835A094A9BA12127FB4BFBEF /* Pods-ZHHDynamicTextViewHeightHandler_Example */,
+				88CD4351CC2077ECB2CDBF7C58DFAB24 /* Pods-ZHHDynamicTextViewHeightHandler_Tests */,
+				41ABF0A2555B955EB6D92B67DF280B52 /* ZHHDynamicTextViewHeightHandler */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		834998DEE19C92526A7E174E79657398 /* ZHHDynamicTextViewHeightHandler */ = {
+			isa = PBXGroup;
+			children = (
+				0C7730680F23AB6EE9C4A4EE27B0E9A1 /* ZHHDynamicTextViewHeightHandler.h */,
+				61FB3648B7C9707576AA5208CCB73808 /* ZHHDynamicTextViewHeightHandler.m */,
+				A7FCC917440B8CDB761EB3CD61018D8A /* Pod */,
+				9F09523E439604D03B1E372C6370D71C /* Support Files */,
+			);
+			name = ZHHDynamicTextViewHeightHandler;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		912F97E0E023E2FBD05B4B00C11891EC /* Pods-ZHHDynamicTextViewHeightHandler_Example */ = {
+			isa = PBXGroup;
+			children = (
+				320932DEB171119C38A813BFFC6D4C71 /* Pods-ZHHDynamicTextViewHeightHandler_Example.modulemap */,
+				00320F75942A16E2A322F92765E7183B /* Pods-ZHHDynamicTextViewHeightHandler_Example-acknowledgements.markdown */,
+				AA04A3CCC96257C73167203ECF1896DA /* Pods-ZHHDynamicTextViewHeightHandler_Example-acknowledgements.plist */,
+				6FB6A448DD175F2624D5360ABA5F30CF /* Pods-ZHHDynamicTextViewHeightHandler_Example-dummy.m */,
+				99A390CF53729603036FD34D7FD610AA /* Pods-ZHHDynamicTextViewHeightHandler_Example-frameworks.sh */,
+				7BF298DF14650AEDF8CEBF263ABECB7E /* Pods-ZHHDynamicTextViewHeightHandler_Example-Info.plist */,
+				9AAA85F6FEED3830F6380CBDFB71D3D1 /* Pods-ZHHDynamicTextViewHeightHandler_Example-umbrella.h */,
+				7BCB5237A1AE2D4ECB0FC177FB4F7007 /* Pods-ZHHDynamicTextViewHeightHandler_Example.debug.xcconfig */,
+				A437AA799999F6252379A53A0BBE0F7F /* Pods-ZHHDynamicTextViewHeightHandler_Example.release.xcconfig */,
+			);
+			name = "Pods-ZHHDynamicTextViewHeightHandler_Example";
+			path = "Target Support Files/Pods-ZHHDynamicTextViewHeightHandler_Example";
+			sourceTree = "<group>";
+		};
+		9F09523E439604D03B1E372C6370D71C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DB5B91892C921C8CEEFFE27FAD6A04E /* ZHHDynamicTextViewHeightHandler.modulemap */,
+				A8DFA8745B72ECC7DBEA321670A1DB51 /* ZHHDynamicTextViewHeightHandler-dummy.m */,
+				C8A11F54ADE82428C1337D64AB81E7C4 /* ZHHDynamicTextViewHeightHandler-Info.plist */,
+				2BB09A3E7AEF249C8CB91A11D2A8DA48 /* ZHHDynamicTextViewHeightHandler-prefix.pch */,
+				67F6F19E9849CAFA95636AD6D2EADC37 /* ZHHDynamicTextViewHeightHandler-umbrella.h */,
+				83AEDC1DD84CD40B69EB01550720FC8D /* ZHHDynamicTextViewHeightHandler.debug.xcconfig */,
+				BE5DC09C6D69817C80D13D4C09ADE9E6 /* ZHHDynamicTextViewHeightHandler.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZHHDynamicTextViewHeightHandler";
+			sourceTree = "<group>";
+		};
+		A7FCC917440B8CDB761EB3CD61018D8A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FE74DC1A88835BD290849DFCCA27EFEB /* LICENSE */,
+				837B2456E204BADF7757866A4B6F6AC2 /* README.md */,
+				69371851860306519EDA155DD3816A48 /* ZHHDynamicTextViewHeightHandler.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B8631656D6764773749B41EB5E8AC449 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				912F97E0E023E2FBD05B4B00C11891EC /* Pods-ZHHDynamicTextViewHeightHandler_Example */,
+				E88EC0F27E838D7EE4A85E2A4247B66B /* Pods-ZHHDynamicTextViewHeightHandler_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BD0FDEC2E94851C8F948D4E6663EC4D0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				834998DEE19C92526A7E174E79657398 /* ZHHDynamicTextViewHeightHandler */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BD0FDEC2E94851C8F948D4E6663EC4D0 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1E284AFE298D4C25C6DC78BF2972B0B1 /* Products */,
+				B8631656D6764773749B41EB5E8AC449 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E88EC0F27E838D7EE4A85E2A4247B66B /* Pods-ZHHDynamicTextViewHeightHandler_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2CF8D2BB307CB71E7EC4CC98B48A765F /* Pods-ZHHDynamicTextViewHeightHandler_Tests.modulemap */,
+				DE3BE47C2BB7B9A5943421CD1CCA73CB /* Pods-ZHHDynamicTextViewHeightHandler_Tests-acknowledgements.markdown */,
+				3F92DF82097E22FB24967896AF01AD1D /* Pods-ZHHDynamicTextViewHeightHandler_Tests-acknowledgements.plist */,
+				16563C5067D6EAB743F87316CBBA70B1 /* Pods-ZHHDynamicTextViewHeightHandler_Tests-dummy.m */,
+				8EAD6C937567A34F665B29E976580AD0 /* Pods-ZHHDynamicTextViewHeightHandler_Tests-Info.plist */,
+				759DDADA45EDAC98772BDA426986FED7 /* Pods-ZHHDynamicTextViewHeightHandler_Tests-umbrella.h */,
+				EDA02ED1C9C0B4BAACE1817FCC548756 /* Pods-ZHHDynamicTextViewHeightHandler_Tests.debug.xcconfig */,
+				84A386A18CD2397C66A5F6C9058362C9 /* Pods-ZHHDynamicTextViewHeightHandler_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZHHDynamicTextViewHeightHandler_Tests";
+			path = "Target Support Files/Pods-ZHHDynamicTextViewHeightHandler_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4F799F31326CB97AAFEA6E6DB88155B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4C895B8F09F96C73BC64E0EF8390828 /* ZHHDynamicTextViewHeightHandler.h in Headers */,
+				8B8780FEEA8EA45A814011BB75EBAF7C /* ZHHDynamicTextViewHeightHandler-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FB491FB8DC12ED11C8C11F4C82AD6A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1185EF10F838B11817ED66F7DDB32664 /* Pods-ZHHDynamicTextViewHeightHandler_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD8036EC686D878700F0D8B971870330 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAADA2B794DDC9F24189D5237BF97F7A /* Pods-ZHHDynamicTextViewHeightHandler_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		48FE953B37DC0578C2D0C7BD0F572590 /* ZHHDynamicTextViewHeightHandler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EB04650E2CBE69B39C8757D0A825DD9 /* Build configuration list for PBXNativeTarget "ZHHDynamicTextViewHeightHandler" */;
+			buildPhases = (
+				4F799F31326CB97AAFEA6E6DB88155B8 /* Headers */,
+				31DDC17752DDC506AF27E30E99773549 /* Sources */,
+				DEDD75E5925DD8A00AA5DCCA0092EA1C /* Frameworks */,
+				FF41B5A502C5854E749FB22DC2FF6B36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHHDynamicTextViewHeightHandler;
+			productName = ZHHDynamicTextViewHeightHandler;
+			productReference = 41ABF0A2555B955EB6D92B67DF280B52 /* ZHHDynamicTextViewHeightHandler */;
+			productType = "com.apple.product-type.framework";
+		};
+		A89A974971739FD83F8210DB0FC421C6 /* Pods-ZHHDynamicTextViewHeightHandler_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADF304E1520F46845F10ABFD15CB4A21 /* Build configuration list for PBXNativeTarget "Pods-ZHHDynamicTextViewHeightHandler_Tests" */;
+			buildPhases = (
+				9FB491FB8DC12ED11C8C11F4C82AD6A1 /* Headers */,
+				36F7122D716FC5596703752F5273A5B4 /* Sources */,
+				7CEB5878C11A4F6C436A10D3F4FD5FF1 /* Frameworks */,
+				87342283034A256E90777B53E4E491C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8D1F41F9D07848E5A9CC38F0B27B162 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZHHDynamicTextViewHeightHandler_Tests";
+			productName = Pods_ZHHDynamicTextViewHeightHandler_Tests;
+			productReference = 88CD4351CC2077ECB2CDBF7C58DFAB24 /* Pods-ZHHDynamicTextViewHeightHandler_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		E25A18B0DA1B016290B0B4C58ABE24C7 /* Pods-ZHHDynamicTextViewHeightHandler_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CB90A40EF4F678AEA7EE91B03806148 /* Build configuration list for PBXNativeTarget "Pods-ZHHDynamicTextViewHeightHandler_Example" */;
+			buildPhases = (
+				BD8036EC686D878700F0D8B971870330 /* Headers */,
+				5AB8377BC2858911F751878249641DC3 /* Sources */,
+				AE3AE4A481040A04E3A01946E72DF8C2 /* Frameworks */,
+				246EF2D673AB14D78467F0045A18A99C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8004AF8C6E645C38AF42EFE33D4460D5 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZHHDynamicTextViewHeightHandler_Example";
+			productName = Pods_ZHHDynamicTextViewHeightHandler_Example;
+			productReference = F4BB892E835A094A9BA12127FB4BFBEF /* Pods-ZHHDynamicTextViewHeightHandler_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1E284AFE298D4C25C6DC78BF2972B0B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E25A18B0DA1B016290B0B4C58ABE24C7 /* Pods-ZHHDynamicTextViewHeightHandler_Example */,
+				A89A974971739FD83F8210DB0FC421C6 /* Pods-ZHHDynamicTextViewHeightHandler_Tests */,
+				48FE953B37DC0578C2D0C7BD0F572590 /* ZHHDynamicTextViewHeightHandler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		246EF2D673AB14D78467F0045A18A99C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87342283034A256E90777B53E4E491C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF41B5A502C5854E749FB22DC2FF6B36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31DDC17752DDC506AF27E30E99773549 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2835EE7E0A41DA87F73B2E23ED68EB2B /* ZHHDynamicTextViewHeightHandler.m in Sources */,
+				6743DCD230F0174192CA4396E23F7AAA /* ZHHDynamicTextViewHeightHandler-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36F7122D716FC5596703752F5273A5B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A1B816B9AA8CDEA5E530FFC73B9628 /* Pods-ZHHDynamicTextViewHeightHandler_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AB8377BC2858911F751878249641DC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7606F826C92939FAD29504AB41E70803 /* Pods-ZHHDynamicTextViewHeightHandler_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8004AF8C6E645C38AF42EFE33D4460D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZHHDynamicTextViewHeightHandler;
+			target = 48FE953B37DC0578C2D0C7BD0F572590 /* ZHHDynamicTextViewHeightHandler */;
+			targetProxy = D6593BB1536801FDF13EC9AD84A7CCFF /* PBXContainerItemProxy */;
+		};
+		C8D1F41F9D07848E5A9CC38F0B27B162 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZHHDynamicTextViewHeightHandler_Example";
+			target = E25A18B0DA1B016290B0B4C58ABE24C7 /* Pods-ZHHDynamicTextViewHeightHandler_Example */;
+			targetProxy = FA754FB695E11FC54138AD11803F1092 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EBCF429D49D3A1A8F8EE83CD018A504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83AEDC1DD84CD40B69EB01550720FC8D /* ZHHDynamicTextViewHeightHandler.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ZHHDynamicTextViewHeightHandler/ZHHDynamicTextViewHeightHandler-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/ZHHDynamicTextViewHeightHandler/ZHHDynamicTextViewHeightHandler-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ZHHDynamicTextViewHeightHandler/ZHHDynamicTextViewHeightHandler.modulemap";
+				PRODUCT_MODULE_NAME = ZHHDynamicTextViewHeightHandler;
+				PRODUCT_NAME = ZHHDynamicTextViewHeightHandler;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2F34930F0655A0A4AEA220D1F9778ABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A437AA799999F6252379A53A0BBE0F7F /* Pods-ZHHDynamicTextViewHeightHandler_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZHHDynamicTextViewHeightHandler_Example/Pods-ZHHDynamicTextViewHeightHandler_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZHHDynamicTextViewHeightHandler_Example/Pods-ZHHDynamicTextViewHeightHandler_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4E4CC65ABBC14706226F3DC69BC370B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84A386A18CD2397C66A5F6C9058362C9 /* Pods-ZHHDynamicTextViewHeightHandler_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZHHDynamicTextViewHeightHandler_Tests/Pods-ZHHDynamicTextViewHeightHandler_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZHHDynamicTextViewHeightHandler_Tests/Pods-ZHHDynamicTextViewHeightHandler_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		523AEA85A71F00C654CA22403CD3D2AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDA02ED1C9C0B4BAACE1817FCC548756 /* Pods-ZHHDynamicTextViewHeightHandler_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZHHDynamicTextViewHeightHandler_Tests/Pods-ZHHDynamicTextViewHeightHandler_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZHHDynamicTextViewHeightHandler_Tests/Pods-ZHHDynamicTextViewHeightHandler_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		77DD4F0638A4BAC32AEAD2B30A63F5E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE5DC09C6D69817C80D13D4C09ADE9E6 /* ZHHDynamicTextViewHeightHandler.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ZHHDynamicTextViewHeightHandler/ZHHDynamicTextViewHeightHandler-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/ZHHDynamicTextViewHeightHandler/ZHHDynamicTextViewHeightHandler-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ZHHDynamicTextViewHeightHandler/ZHHDynamicTextViewHeightHandler.modulemap";
+				PRODUCT_MODULE_NAME = ZHHDynamicTextViewHeightHandler;
+				PRODUCT_NAME = ZHHDynamicTextViewHeightHandler;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7D7F2260191E6819592FFE6B0F9548EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BCB5237A1AE2D4ECB0FC177FB4F7007 /* Pods-ZHHDynamicTextViewHeightHandler_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZHHDynamicTextViewHeightHandler_Example/Pods-ZHHDynamicTextViewHeightHandler_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZHHDynamicTextViewHeightHandler_Example/Pods-ZHHDynamicTextViewHeightHandler_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EB04650E2CBE69B39C8757D0A825DD9 /* Build configuration list for PBXNativeTarget "ZHHDynamicTextViewHeightHandler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EBCF429D49D3A1A8F8EE83CD018A504 /* Debug */,
+				77DD4F0638A4BAC32AEAD2B30A63F5E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CB90A40EF4F678AEA7EE91B03806148 /* Build configuration list for PBXNativeTarget "Pods-ZHHDynamicTextViewHeightHandler_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D7F2260191E6819592FFE6B0F9548EF /* Debug */,
+				2F34930F0655A0A4AEA220D1F9778ABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADF304E1520F46845F10ABFD15CB4A21 /* Build configuration list for PBXNativeTarget "Pods-ZHHDynamicTextViewHeightHandler_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				523AEA85A71F00C654CA22403CD3D2AB /* Debug */,
+				4E4CC65ABBC14706226F3DC69BC370B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
